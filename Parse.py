@@ -8,7 +8,7 @@ def parse(bed_file):
             raise ValueError("{0} is not an int".format(our_line))
         return our_line
 
-    result = list(tuple())
+    result = list()
     with open(bed_file, 'r') as file:
         for line in file:
             result.append(check_int(line.split()[0:-1]))
