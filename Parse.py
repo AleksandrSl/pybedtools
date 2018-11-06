@@ -11,5 +11,5 @@ def parse(bed_file):
     result = list()
     with open(bed_file, 'r') as file:
         for line in file:
-            result.append(check_int(line.split()))
+            result.append(check(line.split()))
     return result
