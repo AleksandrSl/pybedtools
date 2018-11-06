@@ -1,6 +1,6 @@
 def parse(bed_file):
 
-    def check_int(our_line):
+    def check(our_line):
         try:
             our_line[1] = int(our_line[1])
             our_line[2] = int(our_line[2])
