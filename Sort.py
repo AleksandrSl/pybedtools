@@ -1,6 +1,4 @@
 def sort(bed_entries: list):
-
-
     def divide(parse_result, chr_names):
         list_chr_names = list(chr_names)
         divided_by_chr = []
