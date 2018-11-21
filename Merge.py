@@ -31,4 +31,3 @@ def merge(bed_entries: list):
     for i in divided_by_chr:
         result.append(merge_by_chr(i))
     return result
-
